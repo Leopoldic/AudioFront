@@ -147,8 +147,6 @@
                                 <td class="text-xs-right">{{ item.fakultet }}</td>
                                 <td class="text-xs-right">{{ item.kurs }}</td>
                                 <td class="text-xs-right">{{ item.name }}</td>
-                                <td class="text-xs-right">{{ item.surname }}</td>
-                                <td class="text-xs-right">{{ item.rank }}</td>
                             </tr>
                         </template>
 
@@ -434,7 +432,23 @@ export default {
           align: 'right'
         },
       ],
-      items: [],
+      items: [
+        {fakultet:'Земляничка',
+        name:'Федоров А.О.',
+        kurs:'Заземлиться'},
+        {fakultet:'Корона',
+        name:'Петров А.О.',
+        kurs:'Сбор'},
+        {fakultet:'Жила',
+        name:'Иванов А.О.',
+        kurs:'Доход'},
+        {fakultet:'Кекс',
+        name:'Мартынов А.О.',
+        kurs:'Питание'},
+        {fakultet:'Земляничка',
+        name:'Федоров А.О.',
+        kurs:'Заземлиться'},
+      ],
       tabs: 1,
       list: {
         0: false,
